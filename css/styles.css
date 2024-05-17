@@ -94,6 +94,7 @@ h3 {
   font-family: inherit;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .hero-button:hover {
   color: #ffffff;
