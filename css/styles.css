@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -12,7 +12,7 @@ ul {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -35,10 +35,10 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .header-logo .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .header-menu-link {
   font-weight: 500;
@@ -55,8 +55,15 @@ h3 {
 .header-menu-list a:hover {
   color: #404bbf;
 }
+.header-menu-list a:focus {
+  color: #404bbf;
+}
 .header {
   background-color: #ffffff;
+}
+
+.contacts {
+  font-style: normal;
 }
 .contacts-list a {
   font-weight: 400;
@@ -66,6 +73,9 @@ h3 {
   color: #434455;
 }
 .contacts-list a:hover {
+  color: #404bbf;
+}
+.contacts-list a:focus {
   color: #404bbf;
 }
 .contacts-link {
@@ -92,12 +102,20 @@ h3 {
 
 .hero-button {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
 }
 .hero-button:hover {
   color: #ffffff;
+  background-color: #404bbf;
+}
+
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -131,8 +149,11 @@ h3 {
   background-color: #f4f4fd;
 }
 .team-title {
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -158,6 +179,8 @@ h3 {
 .portfolio {
 }
 .portfolio-title {
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -179,15 +202,16 @@ h3 {
   background-color: #2e2f42;
 }
 .footer-logo-link {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-logo-link .accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
