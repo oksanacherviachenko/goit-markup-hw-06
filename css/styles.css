@@ -148,6 +148,7 @@ h3 {
 /*Hero*/
 .hero {
   background-color: #2e2f42;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -174,6 +175,9 @@ h3 {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  display: block;
+  padding: 16px 32px;
+  margin: 0 auto;
 }
 .hero-button:hover {
   color: #ffffff;
