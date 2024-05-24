@@ -38,6 +38,10 @@ img {
   display: block;
 }
 
+section {
+  padding: 120px 0;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -192,6 +196,7 @@ h3 {
 .advantages {
 }
 .advantages-title {
+  display: none;
 }
 .advantages-list {
 }
