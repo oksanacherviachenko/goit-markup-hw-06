@@ -321,8 +321,9 @@ h3 {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
+
   gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
@@ -373,9 +374,9 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
   margin-top: 54px;
   margin-bottom: 16px;
-  display: inline-block;
 }
 .footer-logo-link .accent {
   color: #f4f4fd;
