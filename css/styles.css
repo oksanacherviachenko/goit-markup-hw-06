@@ -348,6 +348,13 @@ h3 {
 .footer {
   background-color: #2e2f42;
 }
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -356,12 +363,8 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-top: ;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
+  margin-top: 54px;
+  margin-bottom: 24px;
 }
 .footer-logo-link .accent {
   color: #f4f4fd;
