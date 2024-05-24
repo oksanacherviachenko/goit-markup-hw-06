@@ -36,6 +36,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 section {
@@ -180,8 +182,12 @@ h3 {
   color: #ffffff;
   background-color: #4d5ae5;
   display: block;
-  padding: 16px 32px;
   margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover {
   color: #ffffff;
@@ -212,6 +218,11 @@ h3 {
   gap: 24px;
 }
 .advantages-list-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
 .advantages-name {
   font-weight: 500;
@@ -237,9 +248,13 @@ h3 {
 .team-title {
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 70px;
 }
 .team-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 
 .team-list-box {
@@ -252,6 +267,24 @@ h3 {
 }
 .team-list-item {
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0;
+  width: 264px;
+}
+
+.thumb {
+  width: 264px;
+  height: 260px;
+}
+
+.thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .team-list-img {
 }
@@ -279,8 +312,12 @@ h3 {
   text-transform: capitalize;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-list-item {
+  width: calc((100%-48px) / 3);
 }
 .portfolio-list-img {
 }
@@ -294,6 +331,20 @@ h3 {
   color: #434455;
 }
 
+.portfolio-list-border {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .footer {
   background-color: #2e2f42;
 }
@@ -305,6 +356,12 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-top: ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
 }
 .footer-logo-link .accent {
   color: #f4f4fd;
