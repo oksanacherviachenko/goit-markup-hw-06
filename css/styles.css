@@ -233,6 +233,14 @@ h3 {
   display: flex;
   gap: 24px;
 }
+
+.advantages-list-icon {
+  border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+}
 .advantages-list-item {
   display: flex;
   align-items: flex-start;
