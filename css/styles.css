@@ -464,16 +464,11 @@ h3 {
   padding: 100px 0;
 }
 .footer-container {
-  display: flex;
-
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 120px;
 }
 
 .logo-box {
   display: inline-block;
+  margin-right: 120px;
 }
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
@@ -505,11 +500,12 @@ h3 {
 }
 
 .footer-social-title {
-  font: 500 16px / 1.5 "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
-  align-self: flex-start;
 }
 
 .social-links-footer {
@@ -517,7 +513,7 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 24px;
+  gap: 16px;
 }
 
 .social-links-footer .link {
@@ -538,6 +534,6 @@ h3 {
   background-color: #31d0aa;
 }
 
-.social-links-footer .icon {
-  fill: #fff;
+.social-links-item .icon {
+  fill: #f4f4fd;
 }
