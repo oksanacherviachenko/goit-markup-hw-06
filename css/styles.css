@@ -105,6 +105,7 @@ h3 {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  transition-property: border-radius, background-color;
 }
 
 .header-menu-link:hover:after,
@@ -119,6 +120,7 @@ h3 {
 
 .header-menu-list a {
   color: #2e2f42;
+  transition-property: color;
 }
 .header-menu-list a:hover {
   color: #404bbf;
@@ -146,13 +148,12 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition-property: color;
 }
-.contacts-list a:hover {
+.contacts-list a:hover, .contacts-list a:focus {
   color: #404bbf;
 }
-.contacts-list a:focus {
-  color: #404bbf;
-}
+ 
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -204,15 +205,15 @@ h3 {
   padding: 16px 32px;
   min-width: 169px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition-property: color, background-color;
+
 }
-.hero-button:hover {
+.hero-button:hover, .hero-button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.hero-button:focus {
-  background-color: #404bbf;
-}
+
 
 /*About us*/
 .advantages {
@@ -343,6 +344,7 @@ gap: 24px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition-property: background-color;
 }
 
 .social-links .link:hover,
@@ -372,6 +374,7 @@ gap: 24px;
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  transition-property: box-shadow;
 }
 
 .portfolio-list-item:hover {
@@ -477,6 +480,7 @@ gap: 24px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition-property: background-color ;
 }
 
 .social-links-footer .link:hover,
