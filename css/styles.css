@@ -130,14 +130,14 @@ h3 {
   bottom: -1px;
 }
 
-.header-menu-list a {
+.header-menu-link a {
   color: #2e2f42;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-menu-list a:hover,
-.header-menu-list a:focus {
+.header-menu-link a:hover,
+.header-menu-link a:focus {
   color: #404bbf;
 }
 
