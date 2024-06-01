@@ -107,6 +107,7 @@ h3 {
   display: block;
   transition-property: border-radius, background-color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover:after,
@@ -123,6 +124,8 @@ h3 {
   color: #2e2f42;
   transition-property: color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .header-menu-list a:hover, .header-menu-list a:focus {
   color: #404bbf;
@@ -150,6 +153,7 @@ h3 {
   color: #434455;
   transition-property: color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-list a:hover, .contacts-list a:focus {
   color: #404bbf;
@@ -208,6 +212,7 @@ h3 {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition-property: color, background-color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .hero-button:hover, .hero-button:focus {
@@ -348,6 +353,7 @@ gap: 24px;
     background-color: #4D5AE5;
     transition-property: background-color;
     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .link:hover,
@@ -379,6 +385,7 @@ gap: 24px;
   width: calc((100% - 48px) / 3);
   transition-property: box-shadow;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
@@ -486,6 +493,7 @@ gap: 24px;
     background-color: #4D5AE5;
     transition-property: background-color ;
     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-footer .link:hover,
