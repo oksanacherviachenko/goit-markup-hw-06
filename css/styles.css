@@ -111,14 +111,15 @@ h3 {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
-  transition-property: border-radius, background-color;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
 
-.header-menu-link:hover::after,
-.header-menu-link:focus::after {
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
 }
 
 .current {
