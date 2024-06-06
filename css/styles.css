@@ -725,7 +725,7 @@ h3 {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -785,6 +785,10 @@ h3 {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
 .check-input {
   margin-bottom: 24px;
 }
@@ -814,7 +818,7 @@ h3 {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+
   align-items: center;
   line-height: 1.17;
 }
