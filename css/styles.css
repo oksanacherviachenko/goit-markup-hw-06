@@ -40,6 +40,19 @@ img {
   object-fit: cover;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 section {
   padding: 120px 0;
 }
@@ -466,7 +479,8 @@ h3 {
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-box {
@@ -541,6 +555,51 @@ h3 {
   fill: #f4f4fd;
 }
 
+.footer-form-title {
+  margin-top: 16px;
+  width: 75px;
+  height: 24px;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-submit-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+}
+.footer-input::placeholder {
+  font: 400 12px / 2 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 0 16px;
+}
+
+.footer-form-btn {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+
+  background: #4d5ae5;
+
+  border: none;
+  margin-left: 24px;
+}
+
 /*Backdrop*/
 
 .backdrop {
@@ -549,9 +608,15 @@ h3 {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;*/
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
@@ -680,4 +745,47 @@ h3 {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.modal-check-text {
+  font: 400 12px / 1.16667 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+}
+
+.modal-check-text span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.modal-check:checked + .modal-check-text span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.check-icon {
+  fill: #f4f4fd;
 }
