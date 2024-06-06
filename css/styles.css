@@ -759,6 +759,7 @@ h3 {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  border: none;
 }
 
 .modal-check-text {
