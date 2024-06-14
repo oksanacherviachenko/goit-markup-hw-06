@@ -275,15 +275,16 @@ h3 {
 
 /*Hero*/
 
-@media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1158px){}
 
 
 .hero {
   background-color: #2e2f42;
   /* margin: 0 auto; */
-  padding: 188px 0;
+  /* padding: 188px 0; */
+  padding-top: 72px;
+  
+  
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
@@ -291,7 +292,7 @@ h3 {
   background-size: cover;
   /* max-width: 1440px; */
   max-width: 320px;
-  height: 432px;
+  
 }
 
 @media (min-resolution: 192dpi) {
@@ -305,15 +306,18 @@ h3 {
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
+  /* font-size: 56px; */
+  font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
-  max-width: 496px;
+  /* margin-bottom: 48px; */
+  margin-bottom: 72px;
+  /* max-width: 496px; */
+  max-width: 216px;
 }
 
 .hero-button {
@@ -341,6 +345,40 @@ h3 {
   background-color: #404bbf;
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    
+    margin: 0 auto;
+    padding: 112px 0;
+    max-width: 768px;
+  }
+
+  .hero-container {
+    max-width: 768px;
+}
+
+  .hero-title {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1158px){
+  .hero {
+    margin: 0 auto;
+    padding: 188px 0;
+    max-width: 1440px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 48px;
+
+
+  }
+}
 /*About us
 .advantages {
 }
