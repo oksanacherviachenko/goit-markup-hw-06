@@ -729,7 +729,20 @@ justify-content: flex-start;
 }
 
 @media screen and (min-width: 1158px){
-
+  .portfolio-list {
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .portfolio-list-border {
+    width: 360px;
+  }
+.portfolio-list-img {
+  max-width: 360px;
+}
 }
 
 /*footer
