@@ -606,9 +606,28 @@ gap: 72px;
   fill: #f4f4fd;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px 24px;
+  }
+  .team-list-item {
+    width: calc((100%-24px)/2);
+  }
 
-/*portfolio
+  @media screen and (min-width: 1158px){
+    .team-list {
+      gap: 24px;
+    }
+    .team-list-item {
+      width: calc((100%-72px) / 4);
+    }
+  }
+}
+
+/*portfolio*/
 
 .portfolio {
 }
@@ -683,6 +702,14 @@ gap: 72px;
   justify-content: center;
   flex-direction: column;
   gap: 8px;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1158px){
+  
 }
 
 /*footer
