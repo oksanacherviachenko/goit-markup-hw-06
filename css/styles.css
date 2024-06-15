@@ -359,6 +359,17 @@ h3 {
 .first-address {
   color: #4d5ae5;
 }
+.mobil-social-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.mobil-social-link {
+}
+
 /*Hero*/
 
 .hero {
