@@ -541,9 +541,9 @@ h3 {
 .advantages-list-icon {
 }
 .advantages-list-item {
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: flex-start; */
   flex-direction: column;
   gap: 8px;
 
@@ -559,8 +559,9 @@ h3 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
-  align-self: center;
+  /* display: flex;
+  align-self: center; */
+  text-align: center;
   margin-bottom: 8px;
 }
 .advantages-text {
@@ -587,6 +588,10 @@ h3 {
   .advantages-list-item {
     width: calc((100%-24px) / 2);
   }
+
+  .advantages-name {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -602,6 +607,7 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 
   .advantages-text {
@@ -1019,11 +1025,12 @@ h3 {
   }
 
   .footer-container {
-    display: inline-flex;
+    /* display: inline-flex; */
     flex-direction: row;
     flex-wrap: wrap;
     text-align: left;
-    gap: 24px;
+    /* gap: 24px; */
+    gap: unset;
   }
   .logo-box {
     width: 264px;
