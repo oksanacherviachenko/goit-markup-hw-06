@@ -220,7 +220,7 @@ h3 {
 
   .contacts-list a {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -504,6 +504,7 @@ h3 {
 }
 /*About us*/
 .advantages {
+  padding: 96px 0;
 }
 .advantages-title {
   position: absolute;
@@ -548,7 +549,7 @@ h3 {
   gap: 8px;
 
   /* width: calc((100% - 72px) / 4); */
-  max-width: 288px;
+  /* max-width: 288px; */
 }
 .advantages-name {
   /* font-weight: 500; */
@@ -595,6 +596,9 @@ h3 {
 }
 
 @media screen and (min-width: 1158px) {
+  .advantages {
+    padding: 120px 0;
+  }
   .advantages-list {
     display: flex;
     gap: 24px;
@@ -623,6 +627,7 @@ h3 {
 
 .team {
   background-color: #f4f4fd;
+  padding: 96px 0;
 }
 .team-title {
   line-height: 1.11;
@@ -721,6 +726,9 @@ h3 {
   }
 
   @media screen and (min-width: 1158px) {
+    .team {
+      padding: 120px 0;
+    }
     .team-list {
       gap: 24px;
     }
@@ -733,7 +741,9 @@ h3 {
 /*portfolio*/
 
 .portfolio {
+  padding: 96px 0;
 }
+
 .portfolio-title {
   line-height: 1.11;
   text-transform: capitalize;
@@ -836,6 +846,9 @@ h3 {
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio {
+    padding: 120px 0;
+  }
   .portfolio-list {
     flex-wrap: wrap;
     gap: 24px;
@@ -1029,8 +1042,8 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     text-align: left;
-    /* gap: 24px; */
-    gap: unset;
+    gap: 72px 24px;
+    /* gap: unset; */
   }
   .logo-box {
     width: 264px;
