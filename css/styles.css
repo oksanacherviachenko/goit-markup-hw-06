@@ -587,7 +587,7 @@ h3 {
   }
 
   .advantages-list-item {
-    width: calc((100%-24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .advantages-name {
