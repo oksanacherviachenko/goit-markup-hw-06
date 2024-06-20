@@ -67,7 +67,7 @@ img {
 }
 
 section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .header-container {
@@ -243,6 +243,9 @@ h3 {
 }
 
 @media screen and (min-width: 1158px) {
+  section {
+    padding: 120px 0;
+  }
   .header-logo {
     margin-right: 76px;
   }
@@ -398,7 +401,7 @@ h3 {
   /* margin: 0 auto; */
   /* padding: 188px 0; */
   padding-top: 72px;
-
+  padding-bottom: 72px;
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/Dark-bg-mobile1x.jpg);
   background-repeat: no-repeat;
@@ -591,7 +594,7 @@ h3 {
   }
 
   .advantages-list-item {
-    width: calc((100% -24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .advantages-name {
@@ -1056,6 +1059,7 @@ h3 {
     display: inline-block;
     text-align: left;
     justify-content: flex-start;
+    margin: unset;
   }
   .footer-form {
     width: 453px;
@@ -1076,6 +1080,9 @@ h3 {
   }
 }
 @media screen and (min-width: 1158px) {
+  .footer-container {
+    gap: unset;
+  }
   .footer {
     padding: 100px 0;
   }
@@ -1093,7 +1100,8 @@ h3 {
     margin-left: unset;
   }
   .footer-submit-form {
-    margin-right: 0;
+    /* margin-right: 0; */
+    margin-left: auto;
   }
 }
 
